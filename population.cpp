@@ -78,19 +78,21 @@ int main(){
 }
 
 
-
+//function BIRTH
 int numBirth(int population1, float birthR){
     int newBirth;
     newBirth = population1 * birthR;
     return newBirth;
 }
 
+//function DEATH
 int numDeath (int population2, float deathR){
     int newDeath;
     newDeath = population2 * deathR;
     return newDeath;
 }
 
+//function NEW POPULATION
 int newPopulation (int p, int bp, int dp){
     int newPop;
     newPop = p + bp - dp;
